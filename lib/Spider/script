@@ -1,0 +1,17 @@
+class LinearLayout{
+
+	add(id){
+		drawWidget(id,0,yPos,onClick);
+		yPos = yPos + 40;
+	}
+}
+var yPos = 0;
+var j = "6" + 2;
+
+fun onClick(){
+	print j;
+}
+
+
+
+

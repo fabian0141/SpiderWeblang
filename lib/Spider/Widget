@@ -1,0 +1,27 @@
+class Widget{
+
+    draw(){
+        drawWidget( this.id,
+                    this.x,
+                    this.y,
+                    this.width,
+                    this.height,
+                    this.backgroundColor,
+                    this.backgroundImage,
+                    this.onClick,
+                    this.onHover,
+                    this.onLeave,
+                    this.text,
+                    this.textColor,
+                    this.textX,
+                    this.textY,
+                    this.borderWidth,
+                    this.borderColor,
+                    this.borderRadius,
+                    this.shadowWidth,
+                    this.shadowColor,
+                    this.shadowX,
+                    this.shadowY,
+                    this.z);
+    }
+}

@@ -1,0 +1,15 @@
+import Spider/Widget;
+
+fun showWidth(){
+    print widget.width;
+}
+
+var widget = Widget();
+widget.id = "id";
+widget.x = 100;
+widget.y = 30;
+widget.width = 200;
+widget.height = 60;
+widget.backgroundColor = "#FF00FF00";
+widget.onClick = showWidth;
+widget.draw();
